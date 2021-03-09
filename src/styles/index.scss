@@ -5,18 +5,11 @@ body {
   width: fit-content;
   margin: auto;
 }
-a {
-  color: #0033cc;
-}
 
 @media (prefers-color-scheme: dark) {
   body {
     color: #eee;
     background: #121212;
-  }
-
-  body a {
-    color: #809fff;
   }
 
   textarea {
