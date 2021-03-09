@@ -1,6 +1,6 @@
 {
   "name": "nginxbeautifier.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple tool to beatify NGINX config files",
   "main": "index.html",
   "scripts": {

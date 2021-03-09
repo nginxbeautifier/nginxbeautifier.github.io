@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://nginxbeautifier.github.io/./src/scripts/index.js"],"names":["console","log"],"mappings":"yBAMAA,QAAQC,IAAI,sB","file":"js/app.5701bfed.js","sourcesContent":["import '../styles/index.scss';\n\nif (process.env.NODE_ENV === 'development') {\n  require('../index.html');\n}\n\nconsole.log('webpack starterkit');\n"],"sourceRoot":""}
