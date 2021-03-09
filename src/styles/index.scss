@@ -1,6 +1,39 @@
-$body-color: slateblue;
-
 body {
-  color: $body-color;
-  font-family: sans-serif;
+  color: #222;
+  background: #fff;
+  font: 100% system-ui;
+  width: fit-content;
+  margin: auto;
+}
+a {
+  color: #0033cc;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #809fff;
+  }
+
+  textarea {
+    color: #eee;
+    background: #121212;
+  }
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  width: 640px;
+  min-height: 640px;
+  height: 100%;
 }
